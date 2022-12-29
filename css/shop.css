@@ -275,6 +275,7 @@ body{
   .container2 {
     padding: 0 16px;
     background-color:#FFFFFF;
+    height: 4cm;
   }
   
   /* Clear floats */
