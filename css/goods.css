@@ -101,7 +101,7 @@ body{
     float: left;
 }
 .title{
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
 }
 .count {
