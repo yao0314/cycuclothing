@@ -5,75 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="../css/goods.css">
 </head>
 <body>
   <header>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <div class="brand-area">
-        <a class="brand-logo"><img class="brand-image" src="/image/logo.png" width="150" height="35"  /></a>
+        <a class="brand-logo"><img class="brand-image" src="../image/logo.png" width="150" height="35"  /></a>
         <div class="cart">
-          <a href="/pages/others/cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+          <a href="../cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
           </svg></a>
         </div>
     </div>
    
     <div class="navbar">
-  <a class="active" href="/pages/others/index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-  <div class="dropdown">
+    <a class="active" href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    <div class="dropdown">
     <button class="dropbtn"><i class="fa fa-fw fa-search"></i>商品快搜
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="/pages/goods/good2.html">保暖休閒褲</a>
-      <a href="/pages/goods/good2-2.html">彈力休閒褲</a>
-      <a href="/pages/goods/good1.html">休閒百搭牛仔褲</a>
-      <a href="/pages/goods/good1-2.html">直筒牛仔褲</a>
-      <a href="/pages/goods/good3.html">簡約抗皺親膚襯衫</a>
-      <a href="/pages/goods/good3-2.html">條紋襯衫</a>
-      <a href="/pages/goods/good4.html">保暖刷毛連帽T</a>
-      <a href="/pages/goods/good4-2.html">運動空氣層連帽T</a>
-      <a href="/pages/goods/good5.html">棉質素面短袖T恤</a>
-      <a href="/pages/goods/good5-2.html">字母圖案T恤</a>
+      <a href="good2.html">保暖休閒褲</a>
+      <a href="good2-2.html">彈力休閒褲</a>
+      <a href="good1.html">休閒百搭牛仔褲</a>
+      <a href="good1-2.html">直筒牛仔褲</a>
+      <a href="good3.html">簡約抗皺親膚襯衫</a>
+      <a href="good3-2.html">條紋襯衫</a>
+      <a href="good4.html">保暖刷毛連帽T</a>
+      <a href="good4-2.html">運動空氣層連帽T</a>
+      <a href="good5.html">棉質素面短袖T恤</a>
+      <a href="good5-2.html">字母圖案T恤</a>
     </div>
-  </div>
-  <a href="/pages/goods/shop.html">商店</a>
-  <a href="/pages/others/aboutus.html">關於我們</a>
-  <a href="/pages/others/policy.html">政策</a>
-  <div class="nav-right"><a href="/pages/others/contact.html"><i class="fa fa-fw fa-envelope"></i> 聯絡我們</a>
-  <a href="/pages/others/login.html"><i class="fa fa-fw fa-user"></i> 登入</a></div>
-  </div>
-    </header>
-        <div class="container">
-            <form action="/action_page.php">
-              <div class="row">
-                <h2 style="text-align:center">登入帳號</h2>
-                <div class="col">
-                  <input type="text" name="username" placeholder="Username" required>
-                  <input type="password" name="password" placeholder="Password" required>
-                  <input type="submit" value="Login">
-                </div>
-                
-              </div>
-            </form>
+    </div>
+    <a href="../shop.html">商店</a>
+    <a href="../aboutus.html">關於我們</a>
+    <a href="../policy.html">政策</a>
+    <div class="nav-right"><a href="../contact.html"><i class="fa fa-fw fa-envelope"></i> 聯絡我們</a>
+    <a href="../login.html"><i class="fa fa-fw fa-user"></i> 登入</a></div>
+    </div>
+  </header>
+    <section>
+      <div class="section-image">
+            <img src="../image/shirt2.jpg" width="300">
+      </div>
+      <div class="title">
+        <h1>條紋襯衫</h1>
+        <h2>NT$ 600</h2>
+      </div>
+      <h3>選擇產品尺寸</h3>
+      <select style="width: 200px;font-size: 20PX;">
+        <option>尺寸</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+      </select>
+      <h3>選擇產品顏色</h3>
+      <select style="width: 200px;font-size: 20PX;">
+        <option>顏色</option>
+        <option>白色</option>
+        <option>乳白色</option>
+        <option>藍</option>
+        <option>黑</option>
+        <option>灰色</option>
+    </select>
+    <h3>庫存量:10</h3>
+    <h3>數量</h3>
+    <button onclick="Less()" class="bton">-</button>
+    <span class="itemcount" id="itemcount">1</span>
+    <button onclick="Add()" class="bton">+</button>
+    <button class="btn">加入購物車</button>
+    <br>
+    <hr>
+    </section>
+    <section class="p1">
+        <h1>商品資訊</h1>
+        <h3>材質 / 100 %純棉<br>
+            彈性 / 無彈性<br>
+            產地 / 台灣<br>
+            洗滌方式 / 不可烘乾 / 不可使用漂白成分之洗衣品<br></h3>
+    </section>
+    <hr>
+    <div class="person" id="評論">
+        <div>
+            <img src="#"width="100" >
+            <h3>T*****s</h3>
+            <p>12,24,2022</p>
+          <div>
+            這件襯衫很好穿!
           </div>
-          
-          <div class="bottom-container">
-            <div class="row">
-              <div class="col">
-                <a href="/pages/others/signup.html" style="color:white" class="btn">註冊</a>
-              </div>
-              <div class="col">
-                <a style="color:white" class="btn">忘記密碼?</a>
-              </div>
-            </div>
+          <hr>
+        </div>
+    </div>
+    <div class="person" id="評論">
+        <div>
+            <img src="#"width="100" >
+            <h3>c*****e</h3>
+            <p>12,25,2022</p>
+          <div>
+            這襯衫我還想買第二件!!
           </div>
-          <footer>
+          <hr>
+        </div>
+    </div>
+    <div class="comment">
+
+        <h3>
+        <span>我要留言</span></h3>
+        
+           <textarea placeholder="輸入您的評論和留言...."></textarea>
+        
+           <button class="btn2">留言</button>
+        
+        </div>
+        <footer>
             <div class="footer-text">
             <div class="brand-area">
-              <a class="brand-logo"><img class="brand-image" src="/image/logo.png" width="150" height="50"  /></a>
+              <a class="brand-logo"><img class="brand-image" src="../image/logo.png" width="150" height="50"  /></a>
             </div>
             <p>234 桃園市中壢區利民路44號,台灣</p> 
             <P>Call us: 0900-613-766</P>
@@ -97,7 +147,7 @@
             </div>
             <div class="footer-brand">
             <p>社群媒體</p>
-            <div class="footer-float" ></div>
+           <div class="footer-float" ></div>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-line" viewBox="0 0 16 16">
               <path d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0ZM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157Zm.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156h-.562Zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832a.17.17 0 0 0-.013-.015v-.001a.139.139 0 0 0-.01-.01l-.003-.003a.092.092 0 0 0-.011-.009h-.001L7.88 4.79l-.003-.002a.029.029 0 0 0-.005-.003l-.008-.005h-.002l-.003-.002-.01-.004-.004-.002a.093.093 0 0 0-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.154.154 0 0 0 .039.038l.001.001.01.006.004.002a.066.066 0 0 0 .008.004l.007.003.005.002a.168.168 0 0 0 .01.003h.003a.155.155 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156h-.561Zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.155.155 0 0 0-.108.044h-.001l-.001.002-.002.003a.155.155 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.155.155 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z"/>
             </svg>

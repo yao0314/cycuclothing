@@ -5,124 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/goods.css">
+    <link rel="stylesheet" href="css/policy.css">
 </head>
 <body>
   <header>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <div class="brand-area">
-        <a class="brand-logo"><img class="brand-image" src="/image/logo.png" width="150" height="35"  /></a>
+        <a class="brand-logo"><img class="brand-image" src="image/logo.png" width="150" height="35"  /></a>
         <div class="cart">
-          <a href="/pages/others/cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+          <a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
           </svg></a>
         </div>
     </div>
    
     <div class="navbar">
-    <a class="active" href="/pages/others/index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-    <div class="dropdown">
+  <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <div class="dropdown">
     <button class="dropbtn"><i class="fa fa-fw fa-search"></i>商品快搜
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="/pages/goods/good2.html">保暖休閒褲</a>
-      <a href="/pages/goods/good2-2.html">彈力休閒褲</a>
-      <a href="/pages/goods/good1.html">休閒百搭牛仔褲</a>
-      <a href="/pages/goods/good1-2.html">直筒牛仔褲</a>
-      <a href="/pages/goods/good3.html">簡約抗皺親膚襯衫</a>
-      <a href="/pages/goods/good3-2.html">條紋襯衫</a>
-      <a href="/pages/goods/good4.html">保暖刷毛連帽T</a>
-      <a href="/pages/goods/good4-2.html">運動空氣層連帽T</a>
-      <a href="/pages/goods/good5.html">棉質素面短袖T恤</a>
-      <a href="/pages/goods/good5-2.html">字母圖案T恤</a>
+      <a href="goods/good2.html">保暖休閒褲</a>
+      <a href="goods/good2-2.html">彈力休閒褲</a>
+      <a href="goods/good1.html">休閒百搭牛仔褲</a>
+      <a href="goods/good1-2.html">直筒牛仔褲</a>
+      <a href="goods/good3.html">簡約抗皺親膚襯衫</a>
+      <a href="goods/good3-2.html">條紋襯衫</a>
+      <a href="goods/good4.html">保暖刷毛連帽T</a>
+      <a href="goods/good4-2.html">運動空氣層連帽T</a>
+      <a href="goods/good5.html">棉質素面短袖T恤</a>
+      <a href="goods/good5-2.html">字母圖案T恤</a>
     </div>
-    </div>
-    <a href="/pages/goods/shop.html">商店</a>
-    <a href="/pages/others/aboutus.html">關於我們</a>
-    <a href="/pages/others/policy.html">政策</a>
-    <div class="nav-right"><a href="/pages/others/contact.html"><i class="fa fa-fw fa-envelope"></i> 聯絡我們</a>
-    <a href="/pages/others/login.html"><i class="fa fa-fw fa-user"></i> 登入</a></div>
-    </div>
-  </header>
-    <section>
-      <div class="section-image">
-            <img src="/image/pant.jpg" width="300">
-      </div>
-      <div class="title">
-        <h1>保暖休閒褲</h1>
-        <h2>NT$ 1450</h2>
-      </div>
-      <h3>選擇產品尺寸</h3>
-      <select style="width: 200px;font-size: 20PX;">
-        <option>尺寸</option>
-        <option>S</option>
-        <option>M</option>
-        <option>L</option>
-        <option>XL</option>
-      </select>
-      <h3>選擇產品顏色</h3>
-      <select style="width: 200px;font-size: 20PX;">
-        <option>顏色</option>
-        <option>藍</option>
-        <option>深藍</option>
-        <option>黑</option>
-        <option>灰色</option>
-    </select>
-    <h3>庫存量:10</h3>
-    <h3>數量</h3>
-    <button onclick="Less()" class="bton">-</button>
-    <span class="itemcount" id="itemcount">1</span>
-    <button onclick="Add()" class="bton">+</button>
-    <button class="btn">加入購物車</button>
-    <br>
-    <hr>
-    </section>
-    <section class="p1">
-        <h1>商品資訊</h1>
-        <h3>材質 / 棉77.9% 黏膠纖維19.6% 其他2.5%<br>
-            彈性 / 有彈性<br>
-            產地 / 台灣<br>
-            洗滌方式 / 不可烘乾 / 不可使用漂白成分之洗衣品<br></h3>
-    </section>
-    <hr>
-    <div class="person" id="評論">
-        <div>
-            <img src="#"width="100" >
-            <h3>D***d</h3>
-            <p>12,24,2022</p>
-          <div>
-            很好看的褲子777777。
-          </div>
-          <hr>
-        </div>
-    </div>
-    <div class="person" id="評論">
-        <div>
-            <img src="#"width="100" >
-            <h3>c*****e</h3>
-            <p>12,25,2022</p>
-          <div>
-            注意看，這褲子太厲害了!
-          </div>
-          <hr>
-        </div>
-    </div>
-    <div class="comment">
+  </div>
+  <a href="shop.html">商店</a>
+  <a href="aboutus.html">關於我們</a>
+  <a href="policy.html">政策</a>
+  <div class="nav-right"><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> 聯絡我們</a>
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> 登入</a></div>
+  </div>
+    </header>
 
-        <h3>
-        <span>我要留言</span></h3>
-        
-           <textarea placeholder="輸入您的評論和留言...."></textarea>
-        
-           <button class="btn2">留言</button>
-        
+        <div class="card">
+            <h1>購物說明</h1>
+            <h2>付款方式</h2>
+            <ul>
+                <li>信用卡付款<br>
+                    方便又好用的付款方式，當您選擇線上刷卡方式進行交易時，作業流程完全保密，保障您的個人隱私資料。</li>
+                <li>超商付款取貨<br>
+                    適合不方便在家收貨或者不方便使用ATM與無信用卡的消費者。</li>
+            </ul>
+            <h2>運送方式</h2>
+            <ul>
+                <li>訂單確認後將立即處理，如您訂單皆現貨商品將於3個工作日收到訂購之商品。</li>
+                <li>配送範圍限台灣國內範圍</li>
+                <li>以 國內各大物流/超商配送 寄送商品。</li>
+            </ul>
+            <h2>退貨說明</h2>
+            <ul>
+                <li>
+                    如果您收到的商品，商品不符您所需，在 7 天鑑賞期內』，前往7-11、全家、ok、萊爾富完成包裏退貨手續，若逾期將不再受理。如有任何流程問題，請直接撥打客服0900-613-766。
+                </li>
+                <li>
+                    退款：退款方式會依您使用的付款方式退款
+                </li>
+                <li>
+                    信用卡：如果您是信用卡付款，我們會將您的款項刷退至您當初刷卡付款的信用卡帳戶中。
+                </li>
+                <li>
+                    超商付款取貨：如果您是使用超商付款取貨的付款方式，請您在填寫退貨申請時，務必填寫正確的退款帳號資料，我們將於7個工作天內退款至您的指定帳號中。
+                </li>
+            </ul>
         </div>
         <footer>
             <div class="footer-text">
             <div class="brand-area">
-              <a class="brand-logo"><img class="brand-image" src="/image/logo.png" width="150" height="50"  /></a>
+              <a class="brand-logo"><img class="brand-image" src="image/logo.png" width="150" height="50"  /></a>
             </div>
             <p>234 桃園市中壢區利民路44號,台灣</p> 
             <P>Call us: 0900-613-766</P>
@@ -165,5 +124,6 @@
             </div>
         
           </footer>
+
 </body>
 </html>
