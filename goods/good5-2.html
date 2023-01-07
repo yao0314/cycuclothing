@@ -73,9 +73,11 @@
       </select>
       <h3>庫存量:10</h3>
       <h3>數量</h3>
-      <button onclick="Less()" class="bton">-</button>
-      <span class="itemcount" id="itemcount">1</span>
-      <button onclick="Add()" class="bton">+</button>
+      <form method="POST">
+        <input type="button" onclick="if (this.form.amount.value&gt;0) this.form.amount.value--" class="bton" value="-">
+        <input type="text" value="1" class="itemcount" id="itemcount" name="amount">
+        <input type="button" onclick="this.form.amount.value++" class="bton" value="+">
+        </form>
       <button class="btn">加入購物車</button>
       <br>
       <hr>
